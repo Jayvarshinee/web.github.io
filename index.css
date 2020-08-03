@@ -1,0 +1,157 @@
+body{
+	background-color: #F7F7F7;
+}
+header{
+	margin-top: 1em;
+	background-color: #fff;
+}
+#logo{
+		display: inline-block;
+		font-family: arial,sans;
+		font-size: 2em;
+}
+nav{
+	float: right;
+	display:inline-block;
+	margin: 0.5em;
+}
+nav a{
+	padding: 1em;
+	font-size: 1.5em;
+	color: #000;
+}
+.heading{
+	padding-left: 15em;
+}
+.heading h1{
+	line-height:1.4em;
+}
+.heading p{
+	color:#4CBBFF; 
+}
+#bg{
+	padding-top:1em;
+	padding-bottom: 1em;
+	padding-left: 7em;
+	padding-right: 7em;
+}
+#bg img{
+	border: 2px solid transparent;
+	border-radius: 1em;
+}
+#info{
+	color: #000; 
+}
+.btninside{
+	position: relative;
+	width: 270px;
+}
+input{
+	width: 280px;
+	height: 2.8em;
+	background-color:#D5D5D5;
+	border: none;
+	border-radius: 0.5em;
+}
+.btninside button{
+		position: absolute; 
+        top: 0; 
+        border-radius: 8px; 
+        right: 0px; 
+		margin: 2px;
+        padding-right:2px;
+        border: none; 
+        top: 2px; 
+		width: 4.5em;
+        height: 2.2em; 
+        color: white; 
+        background-color: #1e90ff; 
+		line-height: 1em;
+}
+.subheading{
+	padding-left: 4em;
+}
+.icon{
+	margin-left: 1em;
+	display: inline-block;
+	padding-top: 2em;
+	padding-right: 3em;
+	
+}
+h3{
+	padding-top: 1em;
+}
+.icon p{
+	padding-top: 1em;
+}
+.icon button{
+	margin: 0.5em;
+	border: none;
+	border-radius: 0.5em;
+	width: 8em;
+	background-color:#DCDCDC;
+	color: #A4A4A4;
+}
+.subheading2 #left{
+	padding-top: 9em;
+}
+.subheading2 #right{
+	padding-top: 1em;
+}
+.team #p1{
+	color:#FFB2FD; 
+}
+.side{
+	padding-top: 7em;
+
+}
+span{
+	display:inline-block;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.side img,.side1 img{
+	border-radius:1em;
+}
+footer{
+	background-color:#000;
+	display: flex;
+}
+footer .links{
+	padding-top: 1em;
+	padding-left: 10em;
+	padding-right: 2em;
+}
+.links a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-size: 1.2em;
+}
+.contact{
+	color:#fff;
+	padding-top: 1em;
+	padding-left: 15em;
+}
+.contact1{
+	color:#fff;
+	padding-top: 2em;
+	padding-left: 15em;
+}
+.fa-instagram,.fa-twitter,.fa-linkedin{
+	color:#fff;
+}
+@media only screen and (max-width: 768px){
+	.heading{
+		padding-left: 1em;
+	}
+	footer{
+		display:block;
+	}
+	.links{
+		padding-left: 5px;
+	}
+	.links a,.contact,.contact1{
+		padding-left:5px;
+	}
+}
